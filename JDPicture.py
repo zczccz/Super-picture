@@ -60,7 +60,7 @@ for i in range(len(content2['data'])):
     #            'image_url': u}
     # files = {'image': ('image.jpg', r.content)}
 
-    # p = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+    # p = requests.post("", files=files, data=payload)
     # print(p.text)
 # content2 = json.loads(content1)
 # print(content2)
