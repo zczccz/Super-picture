@@ -19,9 +19,9 @@ def login():
     log_bt.click()
     time.sleep(4)
     login_name = browser.find_element_by_id('loginName')
-    login_name.send_keys('17865202391')
+    login_name.send_keys('')
     login_pass = browser.find_element_by_id('loginPassword')
-    login_pass.send_keys('zlxyy95221')
+    login_pass.send_keys('')
     time.sleep(1.5)
     login_bt = browser.find_element_by_id('loginAction')
     login_bt.click()
@@ -69,7 +69,7 @@ def page_source():
                        'image_url': s,
                        'uid': hashi.hexdigest()}  # hashi.hexdigest()
             files = {'image': ('image.jpg', r.content)}
-            p = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+            p = requests.post("", files=files, data=payload)
             print(p.text)
             print(payload.values())
 
