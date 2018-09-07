@@ -79,7 +79,7 @@ def downloadSogouPicture(word,page2):
                         #            'page_url': pageurl,
                         #            'image_url': picture}
                         # files = {'image': ('image.jpg', r.content)}
-                        # p = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+                        # p = requests.post("", files=files, data=payload)
                         # print(p.text)
                         # with open('./SouGou/' + word + 'image_url.csv', 'a+') as f:
                         #     f.write(picture + '\n')
