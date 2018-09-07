@@ -103,7 +103,7 @@ class Cr:
                            'image_url': src,
                            'uid': pic_object}  # hashi.hexdigest()
                 files = {'image': ('image.jpg', r.content)}
-                p = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+                p = requests.post("", files=files, data=payload)
                 print(p.text)
                 print(payload.values())
                 d += 1
