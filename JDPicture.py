@@ -11,7 +11,7 @@ import jsonpath
 from bs4 import BeautifulSoup
 
 url = "http://zhibo.renren.com/liveroom/hot/listClient?offset=12&limit=24&requestToken=1262086851&_rtk=16fae91d"
-# url = 'https://user.qzone.qq.com/proxy/domain/vip.qzone.qq.com/fcg-bin/v2/fcg_get_mall_ex?uin=743314618&vip=0&nf=0&mode=1&tips=1&svip=0&sds=0.5089640138459102&g_tk=2147244515&qzonetoken=981e512aae6123fb5864c5366d7356305c63d3b077e403e001368f59c7c48ca3ae3226f7f29eb1&g_tk=2147244515'
+# url = 'https://user.qzone.qq.com/proxy/domain/vip.qzone.qq.com/fcg-bin/v2/fcg_get_mall_ex?uin=&vip=0&nf=0&mode=1&tips=1&svip=0&sds=0.5089640138459102&g_tk=2147244515&qzonetoken=981e512aae6123fb5864c5366d7356305c63d3b077e403e001368f59c7c48ca3ae3226f7f29eb1&g_tk=2147244515'
 html = urllib.request.urlopen(url)
 # html1=urllib.request.urlopen(url).read()
 # html1=urllib3.PoolManager()
@@ -26,7 +26,7 @@ content = requests.request(
                     headers={
                         # ':authority': 'user.qzone.qq.com',
                         # ':method': 'GET',
-                        # ':path':' /proxy/domain/g.qzone.qq.com/fcg-bin/cgi_emotion_list.fcg?uin=2724462510&loginUin=743314618&rd=0.38498249683459584&num=3&noflower=1&g_tk=2147244515&qzonetoken=14a5df7bc3cf146a668b620c68cdf24d33e38860fb74a626fcabb420af8670180379b7aaa4fd9e&g_tk=2147244515',
+                        # ':path':' /proxy/domain/g.qzone.qq.com/fcg-bin/cgi_emotion_list.fcg?uin=&loginUin=743314618&rd=0.38498249683459584&num=3&noflower=1&g_tk=2147244515&qzonetoken=14a5df7bc3cf146a668b620c68cdf24d33e38860fb74a626fcabb420af8670180379b7aaa4fd9e&g_tk=2147244515',
                         # ':scheme': 'https',
                         # 'accept': '*/*',
                         # 'accept-encoding': 'gzip, deflate, br',
