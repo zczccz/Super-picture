@@ -103,7 +103,7 @@ def one(starname):
             #                    'image_url': sr,
             #                    'uid': hashi.hexdigest()}
             #         files = {'image': ('image.jpg', r.content)}
-            #         p = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+            #         p = requests.post(" ", files=files, data=payload)
             #         print(p.text)
             #         print(payload.values())
             #         # with open('./img/'+starname+'image_url.csv','a+') as f:
