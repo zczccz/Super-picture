@@ -73,7 +73,7 @@ def download_bl_picture(pn):
                                    'page_url': pageurl,
                                    'image_url': picture}
                         files = {'image': ('image.jpg', r.content)}
-                        # pp = requests.post("http://192.168.1.103:33333/recv", files=files, data=payload)
+                        # pp = requests.post("http://", files=files, data=payload)
                         # print(pp.text)
                         # with open('./SouGou/' + word + 'image_url.csv', 'a+') as f:
                         #     f.write(picture + '\n')
